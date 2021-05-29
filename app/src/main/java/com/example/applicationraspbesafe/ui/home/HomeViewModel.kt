@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Page d'acceuil de l'application RaspBeSafe"
+        value = "Page d'acceuil de RaspBeSafe"
     }
     val text: LiveData<String> = _text
 }

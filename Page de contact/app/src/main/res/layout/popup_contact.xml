@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="500dp"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/popup_contact"
+        style="@style/ShapeAppearance.MaterialComponents.Tooltip"
+        android:layout_width="110dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="52dp"
+        android:text="Contactez-nous"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_close"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/Tel_title"
+        style="@style/ShapeAppearance.MaterialComponents.Tooltip"
+        android:layout_width="139dp"
+        android:layout_height="20dp"
+        android:text="Téléphone"
+        app:layout_constraintStart_toStartOf="@+id/popup_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="157dp" />
+
+
+    <TextView
+        android:id="@+id/Tel_subtitle"
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="06 00 00 00 00"
+        app:layout_constraintStart_toStartOf="@+id/popup_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/Email_title"
+        style="@style/ShapeAppearance.MaterialComponents.Tooltip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="@+id/popup_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/Email_subtitle"
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="raspbesafe@gmail.com"
+        app:layout_constraintStart_toStartOf="@+id/popup_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <TextView
+        android:id="@+id/Reseau_title"
+        style="@style/ShapeAppearance.MaterialComponents.Tooltip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Réseau social"
+        app:layout_constraintStart_toStartOf="@+id/popup_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/Reseau_subtitle"
+        style="@style/CardView.Dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="RaspBeSafe"
+        app:layout_constraintStart_toStartOf="@+id/popup_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <ImageView
+        android:id="@+id/image_insta"
+        android:layout_width="46dp"
+        android:layout_height="33dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/insta"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="421dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_fb"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/facebook"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="418dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_tweeter"
+        android:layout_width="50dp"
+        android:layout_height="36dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tweeter"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="419dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
